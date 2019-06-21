@@ -1,3 +1,4 @@
+<!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
   <meta charset="utf-8">
@@ -5,11 +6,47 @@
   <meta name="description" content="Web page for my personal portfolio">
   <meta name="author" content="Petar Crljenica">
   <title>Welcome to the Petar Crljenica experience! Glad you could find your way here. </title>
-  <link rel="stylesheet" href="C:\Users\petar\Documents\GitHub\Rosecity3s\rosecity3s\style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <h1>Current student at Portland State University where I am getting a bachelors in computer science</h1>
-  <p>Now hosted on Amazon S3!</p>
+    <!--Here I have my nav bar made with bootstrap 4. Shows the website name and logo, as well as all navigation options-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="d-flex flex-grow-1">
+            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+            <a class="navbar-brand d-none d-lg-inline-block" href="index.html">
+                <h1 class="display-5"><img src="images\pc3logo.png" width ="100" length="100" alt="logo">hirepetar.com</h1>
+            </a>
+            <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="index.html">
+                <img src="images\pc3logo.png" alt="logo">
+            </a>
+            <div class="w-100 text-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link m-2 menu-item nav-active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link m-2 menu-item">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link m-2 menu-item">My Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link m-2 menu-item">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

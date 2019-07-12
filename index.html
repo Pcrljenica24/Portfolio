@@ -1,15 +1,469 @@
-<html xmlns="http://www.w3.org/1999/xhtml" >
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <meta name="description" content="Web page for my personal portfolio">
-  <meta name="author" content="Petar Crljenica">
-  <title>Welcome to the Petar Crljenica experience! Glad you could find your way here. </title>
-  <link rel="stylesheet" href="C:\Users\petar\Documents\GitHub\Rosecity3s\rosecity3s\style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    
+    <!-- ================================================== -->
+    <meta charset="utf-8">
+    <title>hirepetar.com</title>
+    <meta name="description" content="Portfolio website for Petar Crljenica">
+    <meta name="author" content="Petar Crljenica">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
 </head>
-<body>
-  <h1>Current student at Portland State University where I am getting a bachelors in computer science</h1>
-  <p>Now hosted on Amazon S3!</p>
+
+
+<body id="top">
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="row">
+
+            <div class="header-logo">
+                <a class="site-logo" href="index.html"><img src="images\logo.png" alt="Homepage"></a>
+            </div>
+            
+            <nav class="header-nav-wrap">
+                <ul class="header-nav">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                </ul>
+            </nav> <!-- end header-nav-wrap -->
+            
+            <a class="header-menu-toggle" href="#0">
+                <span class="header-menu-icon"></span>
+            </a>
+
+        </div> <!-- end row -->
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images\portland.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h1>
+                Hello, I am Petar Crljenica <br>
+                and I'm pleased to welcome you to hirepetar.com! <br>
+                I am a Software Engineer currently based in Portland, OR.
+                </h1>
+
+                <div class="home-content__button">
+                    <a href="#about" class="smoothscroll btn btn-animatedbg">
+                        More About Me
+                    </a>
+                </div>
+
+            </div> <!-- end home-content__main -->
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    Scroll
+                </a>
+            </div>
+
+        </div> <!-- end home-content -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="01" class="subhead">About Me</h3>
+                <h1 class="display-1">
+                Building software with good quality and being able to effectively solve problems 
+                is my biggest passion within this industry. 
+                </h1>
+                <p class="lead">
+                While obtaining my bachelors degree from Portland State University, I started by learning software development
+                through Linux, Vim, and C++. Learning at this level helped establish a foundation of the core concepts within software development. 
+                </p>
+            </div>
+        </div>
+
+        <div class="row about-process block-1-2 block-tab-full">
+
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--planning">
+                    <h3>Early Life</h3>
+                </div>
+                <p>
+                    When I was 4 years old, I moved from Bosnia to Portland with my parents. 
+                    My upbringing here has allowed me to become fluent in English and Serbo-Croation. 
+                </p>
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--branding">
+                    <h3>The University of Oregon</h3>
+                </div>
+                <p>
+                    From 2012-2014, I attended the university of Oregon studying mathematics but ultimately decided that wasn't for me. 
+                    I took a few entry level computer science courses and found a passion for coding and the problem solving involved with it. 
+                </p> 
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--implementation">
+                    <h3>Portland State University</h3>
+                </div>
+                <p>
+                    I moved back to Portland to be closer with family and took up getting my bachelors in computer science from PSU. 
+                    It did not come without challenges but I persevered. I am now finishing up the last of my classes for my degree. 
+                </p>
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--documentation">
+                    <h3>Currently</h3>
+                </div>
+                <p>
+                    I am doing freelance web development currently. 
+                    I am also looking for full time work with front/back end design for web/app development. 
+                    I would also enjoy a career oppurtunity to be able to work with operating systems. 
+                    One day, I would love to be able to work for the Portland Trail Blazers on their analytics team!
+                </p>
+            </div>
+
+        </div>  <!-- end about-process -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="02" class="subhead">What I Do</h3>
+                <h1 class="display-1 display-1--light">
+                I am proficient with designing front/back end websites.
+                I also design clean and efficient code. 
+                </h1>
+                <p class="lead lead-light">
+                By developing with solid coding standards and proper communication,
+                any problem can be effectively solved. 
+                </p>
+            </div>
+        </div>
+
+        <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>HTML5</h4>
+                <p>
+                    <img src="images\icons\html5.svg">
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>CSS3</h4>
+                <p>
+                    <img src="images\icons\css3.svg">
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>C++</h4>
+                <p>
+                    <img src="images\icons\c++.svg">
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>C</h4>
+                <p>
+                    <img src="images\icons\c.svg">
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>Python</h4>
+                <p>
+                    <img src="images\icons\python.svg">
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>Javascript</h4>
+                <p>
+                    <img src="images\icons\JS.svg">
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>Java</h4>
+                <p>
+                    <img src="images\icons\java.svg">
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>Object Oriented Programming</h4>
+                <p>
+                    <img src="images\icons\OOP.svg">
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>Linux</h4>
+                <p>
+                    <img src="images\icons\ubuntu.svg">
+                </p>
+            </div>
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="03" class="subhead">Recent Works</h3>
+                <h1 class="display-1">
+                Here are some of the projects I have done
+                with links to their respective repositories on GitHub
+                </h1>
+            </div>
+        </div>
+
+        <div class="portfolio block-1-4 block-m-1-3 block-tab-1-2 collapse">
+            
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images\portfolio\gallery\g-backboard.jpg" class="thumb-link" title="Rosecity3s" data-size="1050x700">
+                        <img src="images\portfolio\backboard.jpg" 
+                             srcset="images\portfolio\backboard.jpg 1x, images\portfolio\backboardx2.jpg" alt="Rosecity3s">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        <a href="http://rosecity3s.com/">Rosecity3s</a>
+                    </h3>
+                    <p class="item-folio__cat">
+                        Web Development
+                    </p>
+                </div>
+
+                <a href="http://rosecity3s.com/" class="item-folio__project-link" title="Project link">
+                    Project Link
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Here I have my first project which was a landing page for a 3 on 3 basketball league based in Portland, Oregon</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/Portffolioimage.png" class="thumb-link" title="Portfolio" data-size="1050x700">
+                        <img src="images/portfolio/designsmall.jpg" 
+                             srcset="images/portfolio/designsmall.jpg 1x, images/portfolio/designsmall.jpg 2x" alt="Portfolio Site">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Personal Portfolio
+                    </h3>
+                    <p class="item-folio__cat">
+                        Web Development
+                    </p>
+                </div>
+
+                <a href="httpL//hirepetar.com" class="item-folio__project-link" title="Project link">
+                    Project Link
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>I designed my own personal portfolio website that eloquently displays my information and services.</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+        </div> <!-- end portfolio -->
+        
+
+    <!-- clients
+    ================================================== -->
+    <section id="clients" class="s-clients target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="04" class="subhead">My Sites</h3>
+                <h1 class="display-1 display-1--light">The link below will take you to my Github and linkedin pages. There you can view my resume.</h1>
+            </div>
+        </div>
+
+        <div class="row clients-list block-1-4 block-tab-1-3 block-mob-1-2" data-aos="fade-up">
+
+            <div class="col-block item-client">
+                <a href="https://github.com/Pcrljenica24">
+                    <img src="images/clients/icon-github.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="https://www.linkedin.com/in/petar-crljenica/">
+                    <img src="images/icons/linkedin.svg" alt="">
+                </a>
+            </div>
+
+        </div> <!-- clients-list -->
+
+    </section> <!-- end s-clients -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="05" class="subhead">Get In Touch</h3>
+                <h1 class="display-1 display-1--light">Have any web development needs or would
+                    like to discuss an open software development position, 
+                    please feel free to send an email to <a href="mailto:petar.crljenica@gmail.com">petar.crljenica@gmail.com</a></h1>
+            </div>
+        </div>
+
+        <div class="row contact-infos">
+
+            <div class="col-five md-seven tab-full contact-address" data-aos="fade-up">
+                <h4>I am currently located in</h4>
+
+                <p>
+                Portland, Oregon               
+                </p>
+            </div>
+
+            <div class="col-four md-six tab-full contact-number" data-aos="fade-up">
+                <h4>Contact Us</h4>
+
+                <ul class="contact-list">
+                    <li><a href="mailto:petar.crljenica@gmail.com">petar.crljenica@gmail.com</a></li>
+                    <li><a href="tel:503-709-8656">+503-709-8656</a></li>
+                </ul>
+            </div>
+
+        </div> <!-- end contact-infos -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full cl-copyright">
+                <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</span>
+            </div>
+        </div>
+
+        <div class="cl-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
-</html>
